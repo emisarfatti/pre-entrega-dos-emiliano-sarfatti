@@ -54,6 +54,7 @@ background-color: var(--header-bg-color);
     height: auto;
 }
 
+
 .fila_tienda{
     text-decoration: none;
     background-color: var(--bg-tres-color);
@@ -90,7 +91,7 @@ background-color: var(--header-bg-color);
 
 .qs_main{
     height: 100%;
-    background-image: url(/preentrega_dos-sarfatti/img/fondo_qs.jpg);
+    background-image: url(img/fondo_qs.jpg);
     background-repeat:no-repeat;
     background-position: right;
     background-attachment: fixed;
@@ -144,22 +145,43 @@ footer{
 
 /*main tiendaoficial.html*/
 
+.main_to{
+    background-color: var(--main-bg-color);
+}
+
 .main_tienda{
     background-color: var(--main-bg-color);
-    height: 100%;
+    height: auto;
+}
+
+.titulo_tienda{
+    height: auto;
+    background-color: var(--main-bg-color);
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo_tienda_producto{
+    color: var(--text-color);
+    font-size: 35px;
 }
 
 .producto_tienda{
 padding: 20px;
 }
 
-.producto_tienda:hover{
+.hover_to:hover{
     border: 1px solid black;
+    border-radius: 20px;
 }
 
 .img_tienda{
     height: 550px;
     width: 100%;
+}
+
+.producto_to{
+    color: var(--text-color);
 }
 
 .nombre_producto{
